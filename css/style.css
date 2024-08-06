@@ -29,6 +29,10 @@ body {
   text-align: center;
 }
 
+img {
+  display: block;
+}
+
 *::before,
 *::after {
   box-sizing: border-box;
