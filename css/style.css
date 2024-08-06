@@ -94,6 +94,7 @@ img {
 .nav-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .nav-item {
@@ -106,7 +107,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2E2F42;
-  padding: 24px 0;
   transition: color 0.3s;
 }
 
@@ -123,7 +123,15 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 40px;
+  column-gap: 40px;
+}
+
+.address-item {
+  margin-right: 40px;
+}
+
+.address-item:last-child {
+  margin-right: 0;
 }
 
 .address-link {
