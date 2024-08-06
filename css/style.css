@@ -148,12 +148,6 @@ img {
     color: #404bbf;
 }
 
-/* MAIN */
-.main {
-  flex-grow: 1;
-  max-width: 100%;
-}
-
 /* HERO-SECTION */
 .hero-section {
   width: 100%;
