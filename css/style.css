@@ -64,7 +64,6 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
 }
 
 .logo {
@@ -138,13 +137,14 @@ button {
 
 /* HERO-SECTION */
 .hero-section {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
   background-color: #2E2F42;
   text-align: center;
   padding: 188px 472px;
 }
 
-h1.hero-title{
+.hero-title{
   /* max-width: 496px; */
   font-size: 56px;
   font-weight: 700;
@@ -181,7 +181,7 @@ h1.hero-title{
   padding: 120px 156px;
 }
 
-h2.features-title {
+.features-title {
   opacity: 0;
 }
 
@@ -206,7 +206,7 @@ h2.features-title {
   padding: 0;
 }
 
-h3.feature-title {
+.feature-item-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -236,12 +236,14 @@ p.feature-description {
   padding: 120px 156px;
 }
 
-h2.team-title {
+.team-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  text-align: center;
+  text-transform: capitalize;
   padding-bottom: 72px;
 }
 
@@ -274,22 +276,27 @@ h2.team-title {
   color: #007BFF;
 }
 
-div.team-img {
+.team-img {
   max-width: 264px;
   max-height: 260px;
   object-fit: cover;
   margin: 0 auto;
 }
 
-img.team-photo {
+.team-photo {
   max-width: 100%;
 }
 
 .team-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 32px 16px;
 }
 
-h3.team-name {
+
+.team-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -299,7 +306,7 @@ h3.team-name {
   transition: color 0.3s ease;
 }
 
-p.team-role {
+.team-role {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -316,7 +323,7 @@ p.team-role {
   padding-bottom: 120px;
 }
 
-h2.portfolio-title {
+.portfolio-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -386,7 +393,7 @@ img.portfolio-photo {
   text-align: left;
 }
 
-.portfolio-content h3 {
+.portfolio-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -409,7 +416,7 @@ img.portfolio-photo {
   text-align: left;
 }
 
-.log {
+.footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -421,11 +428,11 @@ img.portfolio-photo {
   text-align: left;
 }
 
-.log-text {
+.footer-logo-text {
   color: #f4f4fd;
 }
 
-p.footer-paragraph {
+.footer-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
