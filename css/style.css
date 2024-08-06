@@ -258,7 +258,7 @@ p.feature-description {
   gap: 20px;
 }
 
-.team-content {
+.team-member {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -268,19 +268,20 @@ p.feature-description {
   cursor: pointer;
 }
 
-.team-content:hover {
+.team-member:hover {
   box-shadow: 
     0 2px 1px rgba(46, 47, 66, 0.08),
     0 1px 1px rgba(46, 47, 66, 0.16);
   transform: scale(1.02);
 }
 
-.team-content:hover .team-name,
-.team-content:hover .team-role {
+.team-member:hover .team-name,
+.team-member:hover .team-role {
   color: #007BFF;
 }
 
 .team-img {
+  display: block;
   max-width: 264px;
   max-height: 260px;
   object-fit: cover;
