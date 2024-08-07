@@ -204,8 +204,6 @@ main {
 }
 
 .visually-hidden {
-  display: none;
-  opacity: 0;
   visibility: hidden;
 }
 
