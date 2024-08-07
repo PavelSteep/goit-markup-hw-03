@@ -314,7 +314,7 @@ li.team-member {
   margin: 0 auto;
 }
 
-.portfolio-heading {
+h2.portfolio-heading {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
