@@ -341,8 +341,7 @@ p.feature-description {
 .portfolio {
   max-width: 100%;
   background-color: #FFFFFF;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
@@ -370,9 +369,6 @@ p.feature-description {
   margin-bottom: 20px;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
-}
-
-.portfolio-item:focus-within {
   transform: scale(1.1) rotate(5deg);
 }
 
