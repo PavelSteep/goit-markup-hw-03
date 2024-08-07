@@ -203,17 +203,14 @@ main {
   padding: 120px 0 120px;
 }
 
-.features-title {
+.visually-hidden {
+  visibility: hidden;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2E2F42;
   margin-bottom: 32px;
-}
-
-.visually-hidden {
-  visibility: hidden;
 }
 
 .features-list {
@@ -226,8 +223,6 @@ main {
 
 .feature-item {
   width: calc((100% - 72px) / 4);
-  text-align: left;
-  list-style: none;
 }
 
 .feature-item-title {
