@@ -312,8 +312,6 @@ li.team-member {
 .portfolio-container {
   min-width: 1200px;
   margin: 0 auto;
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
 }
 
 h2.portfolio-heading {
@@ -347,6 +345,11 @@ h2.portfolio-heading {
   max-width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+.portfolio-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-item-title {
