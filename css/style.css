@@ -372,43 +372,15 @@ p.feature-description {
   transform: scale(1.1) rotate(5deg);
 }
 
-.portfolio-wrapper-img-content {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  max-width: 360px;
-  height: auto;
-  border-width: 0px 1px 1px 1px;
-  border-style: solid;
-  border-color: #E7E9FC;
-  margin: 0 auto;
-}
-
-.portfolio-img {
-  max-width: 360px;
-  min-height: 120px;
-}
-
-img.portfolio-photo {
+.portfolio-photo {
   max-width: 100%;
   height: auto;
   object-fit: cover;
   transition: transform 0.3s ease-in-out;
 }
 
-.portfolio-img:focus {
-  outline: none;
-}
-
 .portfolio-photo:hover {
   transform: scale(1.1);
-}
-
-.portfolio-content {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  text-align: left;
 }
 
 .portfolio-item-title {
