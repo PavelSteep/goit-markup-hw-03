@@ -204,13 +204,14 @@ main {
 }
 
 .visually-hidden {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2E2F42;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
   overflow: hidden;
-  margin-bottom: 32px;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .features-list {
