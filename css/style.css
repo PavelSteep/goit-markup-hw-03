@@ -433,13 +433,14 @@ img.portfolio-photo {
 
 /* FOOTER */
 .footer {
-  background-color: #2e2f42;
   padding: 100px 0;
+  background-color: #2e2f42;
   text-align: left;
 }
 
 .footer-link {
   display: inline-block;
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -447,7 +448,6 @@ img.portfolio-photo {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;
   text-align: left;
 }
 
