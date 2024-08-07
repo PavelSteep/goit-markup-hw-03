@@ -203,17 +203,14 @@ main {
   padding: 120px 0 120px;
 }
 
-.feature-title {
+.visually-hidden {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  overflow: hidden;
   margin-bottom: 32px;
-}
-
-.visually-hidden {
-  opacity: 0;
 }
 
 .features-list {
@@ -309,7 +306,7 @@ li.team-member {
   transition: color 0.3s ease;
 }
 
-/* PORTFOLIO */
+/* portfolio */
 .portfolio-section {
   max-width: 100%;
   background-color: #FFFFFF;
@@ -378,7 +375,7 @@ li.team-member {
   text-align: center;
 }
 
-/* FOOTER */
+/* footer */
 .footer {
   padding: 100px 0;
   background-color: #2e2f42;
