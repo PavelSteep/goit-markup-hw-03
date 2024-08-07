@@ -346,11 +346,6 @@ li.team-member {
   border-top: none;
 }
 
-.portfolio-content {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-}
-
 .portfolio-photo {
   max-width: 100%;
   height: auto;
